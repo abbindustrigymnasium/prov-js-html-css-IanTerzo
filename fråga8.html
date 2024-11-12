@@ -10,8 +10,13 @@
     <!-- Här ska din HTML kod vara -->
 
     <script>
-        // Här ska din JavaScript kod vara
+        function filterEvenNumbers(nums){
+            return nums.filter((num) => (num % 2) == 0);
+        }
 
+        let numbers = [12, 25, 37, 43, 59, 61];
+
+        console.log(filterEvenNumbers(filterEvenNumbers(numbers)));
 
     </script>
 </body>

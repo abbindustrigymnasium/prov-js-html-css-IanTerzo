@@ -6,12 +6,14 @@
 </head>
 
 <body>
-    <!-- Här ska din HTML kod vara -->
-
+    <input id="adress"/>
+    <button onclick="showimage()">Show Image</button>
+    <br>
+    <img id="bild"/>
     <script>
-        // Här ska din JavaScript kod vara
-
-
+        function showimage(){
+            document.getElementById("bild").src = document.getElementById("adress").value;
+        }
     </script>
 </body>
 
